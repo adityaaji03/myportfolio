@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'valorant';
+    src: url(Valorant\ Font.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'ewig';
+    src: url(typodermic-eula-03-2020.pdf) format('truetype');
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+h4.valo {
+    font-family: 'valorant', sans-serif;
+}
+h2.display-3 {
+    font-family: 'ewig';
+    font-weight: bold;
+}
+
+.bg-blue {
+    background-color: rgb(89, 75, 222);
+}
+
+.banner {
+    background: url('/images/banner1.png') no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+}
+.bulet {
+    display: inline-block;
+    border-radius: 50%;
+    border: solid 5px black;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    
+}
+.bulet img {
+    position: relative;
+    top: 5px
+}
+
+.crop-img {
+    object-fit: cover;
+}
+img.img-fluid {
+    
+}
+svg {
+    margin: 0px;
+}
+h4.animate {
+    
+    animation: bounce; 
+    animation-duration: 2s; 
+  }
+
+img.animate {
+    
+    /* background: red; */
+    position: relative;
+    animation: mymove 1s infinite;
+    animation-timing-function: linear;
+    padding-right: 5px;
+  }
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+  
